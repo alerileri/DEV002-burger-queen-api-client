@@ -1,11 +1,11 @@
-// import neon-burger-logo.png from '.'
+ import nbLogo from '../assets/img/nbLogo.png'
 
-// const Logo = ({ cssLogo }) => {
-//     return (
-//         <div className={cssLogo}>
-//             <img src={chezMimiLogo} alt="Chez mimi"/>
-//         </div>
-//     );
-// }
+ const Logo = ({ neonLogo }) => {
+     return (
+        <div className={neonLogo}>
+            <img src={nbLogo} alt='Neon Burger' />
+         </div>
+     );
+ }
 
-// export default Logo;
+ export default Logo;
