@@ -1,4 +1,4 @@
-import { HomeIcon } from '@heroicons/react/24'
+import { HomeIcon } from '@heroicons/react/24/outline'
 
 function HomeBtn () {
 return (

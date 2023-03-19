@@ -1,4 +1,4 @@
-import { CheckCircleIcon } from '@heroicons/react/24'
+import { CheckCircleIcon } from '@heroicons/react/24/outline'
 
 function CircleStatus () {
     return (
