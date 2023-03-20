@@ -4,14 +4,18 @@
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 const Router = () => {
-  const Home = () => <h1>Home</h1>;
-  const Pets = () => <h1>Pet List</h1>;
-  const Layout = () => <h1>Layout</h1>;
+  const LoginPage = () => <h1>Login</h1>
+  const AdminPage = () => <h1>Admin</h1>;
+  const ChefPage = () => <h1>Chef</h1>;
+  const WaiterPage = () => <h1>Waiter</h1>;
   return (
     <>
       <BrowserRouter>
         <Routes>
-          <Route path="/" element={<Layout />}></Route>
+          <Route path="/" element={<LoginPage />}></Route>
+          <Route path="home" element={<AdminPage />}></Route>
+          <Route path="pets" element={<ChefPage />}></Route>
+          <Route path="pets" element={<WaiterPage />}></Route>
         </Routes>
       </BrowserRouter>
     </>
