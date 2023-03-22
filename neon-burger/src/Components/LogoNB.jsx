@@ -1,4 +1,5 @@
  import nbLogo from '../assets/img/nbLogo.png'
+ import './LogoNB.css'
 
  const Logo = ({ neonLogo }) => {
      return (
