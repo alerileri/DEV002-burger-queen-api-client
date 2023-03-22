@@ -4,10 +4,12 @@
   font-weight: 400;
   --nightcolor: #232F5B;
   --deepnight: #0A1E38;
+  --neongreen: #39F557;
+  --neonpink: #F539D7;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: var(--nightcolor);
+  background-color: var(--deepnight);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -45,7 +47,8 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: var(--deepnight);
+  background-color: var(--neongreen);
+  color: var(--deepnight);
   cursor: pointer;
   transition: border-color 0.25s;
 }

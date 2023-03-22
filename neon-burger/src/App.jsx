@@ -13,14 +13,14 @@ function App() {
     <div className="App">
       <LogoNB />
 
-      <form>
-        <label>Email</label>
+      <form className='login-form'>
+        <label className='label-form'>Email</label>
         <input placeholder='user@neonburger.com'></input>
         <label>Password</label>
         <input placeholder='password:9'></input>
         <button type='submit'>Login</button>
       </form>
-
+{/* 
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
@@ -41,7 +41,7 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p>
+      </p> */}
     </div>
   )
 }
