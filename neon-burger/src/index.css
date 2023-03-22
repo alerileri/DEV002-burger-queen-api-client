@@ -2,10 +2,12 @@
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
   line-height: 1.5;
   font-weight: 400;
+  --nightcolor: #232F5B;
+  --deepnight: #0A1E38;
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+  background-color: var(--nightcolor);
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -43,12 +45,12 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
+  background-color: var(--deepnight);
   cursor: pointer;
   transition: border-color 0.25s;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #F539D7;
 }
 button:focus,
 button:focus-visible {
