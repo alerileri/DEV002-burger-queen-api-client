@@ -1,12 +1,26 @@
 import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import './App.css'
+import LogoNB from './Components/LogoNB'
+
 
 function App() {
+
   const [count, setCount] = useState(0)
 
   return (
+
     <div className="App">
+      <LogoNB />
+
+      <form>
+        <label>Email</label>
+        <input placeholder='user@neonburger.com'></input>
+        <label>Password</label>
+        <input placeholder='password:9'></input>
+        <button type='submit'>Login</button>
+      </form>
+
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
