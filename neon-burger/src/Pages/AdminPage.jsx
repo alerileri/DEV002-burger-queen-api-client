@@ -5,10 +5,11 @@ function AdminPage() {
     return (
        <div>
         <Header />
+        <h1>Admin page</h1>
         <section><Footer /></section>
         </div>
     )
 }
 
-export default AdminPage
+export default AdminPage;
 

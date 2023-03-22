@@ -5,9 +5,10 @@ function WaiterPage() {
     return (
        <div>
         <Header />
+        <h1>Waiter page</h1>
         <section><Footer /></section>
         </div>
     )
 }
 
-export default WaiterPage
+export default WaiterPage;

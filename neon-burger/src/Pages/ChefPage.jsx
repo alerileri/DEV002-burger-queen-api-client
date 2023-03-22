@@ -5,9 +5,10 @@ function ChefPage() {
     return (
        <div>
         <Header />
+        <h1>Chef page</h1>
         <section><Footer /></section>
         </div>
     )
 }
 
-export default ChefPage
+export default ChefPage;

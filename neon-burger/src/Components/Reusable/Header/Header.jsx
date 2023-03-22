@@ -1,11 +1,11 @@
-import LogoNB from '..../Components/LogoNB'
+import Logo from '../../LogoNB'
 import Logoutbtn from '../Icons/logoutbtn'
 import Usename from './Username'
 
 function Header () {
     return (
         <div>
-            <LogoNB />
+            <Logo />
         <Usename />
         <Logoutbtn />
         </div>
