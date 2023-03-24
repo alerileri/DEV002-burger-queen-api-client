@@ -1,5 +1,6 @@
 //import React from "react";
-import LoginForm, { LogoNB } from '../Components/Reusable/LoginForm';
+import LogoNB from '../Components/LogoNB'
+import LoginForm from '../Components/Reusable/LoginForm';
 
 function LoginPage () {
     return (

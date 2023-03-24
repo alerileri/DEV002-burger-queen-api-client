@@ -1,22 +1,38 @@
 import { Routes, Route } from 'react-router-dom';
-//import { useState } from 'react'
+import { useState } from 'react'
 //import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css'
-import LogoNB from './Components/LogoNB'
 import AdminPage from './Pages/AdminPage';
 import ChefPage from './Pages/ChefPage';
 import WaiterPage from './Pages/WaiterPage';
-import < WaiterPage
+import Feed from './Pages/Feed';
+import NotFound from './Pages/NotFound';
+import LoginPage from './Pages/Login';
 
 
 function App() {
 
   //const [count, setCount] = useState(0)
+  //const [user, setUser] = useState(null);
+
+  // if(!user){
+  //   return 
+  //     <Routes>
+  //       <Route path="/" element={ <LoginPage setUser={setUser} />}></Route>
+  //     </Routes>
+  // };
+
+  // if(user.rol === 'cocina') {
+  //   return
+  //   <Routes>
+  //     <Route path="/" element={<ChefPage />} /></Route>
+  //   </Routes>
+  // }
 
   return (
     <Routes>
       <Route path="/" element={<LoginPage />}></Route>
-        <Route path="admin" element={<Feed />}></Route>
+        <Route path="feed" element={<Feed />}></Route>
         <Route path="admin" element={<AdminPage />}></Route>
         <Route path="chef" element={<ChefPage />}></Route>
         <Route path="waiter" element={<WaiterPage />}></Route>

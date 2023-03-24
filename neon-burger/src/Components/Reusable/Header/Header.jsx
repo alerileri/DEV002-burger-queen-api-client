@@ -5,7 +5,7 @@ import Username from './Username'
 function Header () {
     return (
         <div>
-            <Logo />
+            <Logo width='80px' height='auto'/>
         <Username />
         <Logoutbtn />
         </div>
