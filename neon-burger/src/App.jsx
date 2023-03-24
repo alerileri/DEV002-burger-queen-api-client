@@ -1,25 +1,30 @@
-import { useState } from 'react'
+import { Routes, Route } from 'react-router-dom';
+//import { useState } from 'react'
+//import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css'
 import LogoNB from './Components/LogoNB'
+import AdminPage from './Pages/AdminPage';
+import ChefPage from './Pages/ChefPage';
+import WaiterPage from './Pages/WaiterPage';
+import < WaiterPage
 
 
 function App() {
 
-  const [count, setCount] = useState(0)
+  //const [count, setCount] = useState(0)
 
   return (
+    <Routes>
+      <Route path="/" element={<LoginPage />}></Route>
+        <Route path="admin" element={<Feed />}></Route>
+        <Route path="admin" element={<AdminPage />}></Route>
+        <Route path="chef" element={<ChefPage />}></Route>
+        <Route path="waiter" element={<WaiterPage />}></Route>
+        <Route path="*" element={<NotFound />}></Route>
+    </Routes>
 
-    <div className="App">
-      <LogoNB />
-
-      <form className='login-form'>
-        <label className='label-form'>Email</label>
-        <input placeholder='user@neonburger.com'></input>
-        <label>Password</label>
-        <input placeholder='password:9'></input>
-        <button type='submit'>Login</button>
-      </form>
-{/* 
+//{
+  /* 
       <div>
         <a href="https://vitejs.dev" target="_blank">
           <img src="/vite.svg" className="logo" alt="Vite logo" />
@@ -40,9 +45,9 @@ function App() {
       </div>
       <p className="read-the-docs">
         Click on the Vite and React logos to learn more
-      </p> */ }
-    </div>
-  )
-}
+      </p> */ 
+    //}
+  );
+};
 
 export default App

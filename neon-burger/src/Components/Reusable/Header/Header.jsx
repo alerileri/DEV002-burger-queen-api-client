@@ -1,15 +1,15 @@
 import Logo from '../../LogoNB'
 import Logoutbtn from '../Icons/logoutbtn'
-import Usename from './Username'
+import Username from './Username'
 
 function Header () {
     return (
         <div>
             <Logo />
-        <Usename />
+        <Username />
         <Logoutbtn />
         </div>
     )
 }
 
-export default Header
+export default Header;

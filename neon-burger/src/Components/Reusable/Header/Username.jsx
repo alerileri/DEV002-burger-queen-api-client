@@ -1,7 +1,7 @@
-function Usename () {
+function Username () {
     return (
     <p>Matilda</p>
     )
 }
 
-export default Usename
+export default Username
