@@ -1,0 +1,48 @@
+.admin-container {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+}
+
+.header-div {
+    display: flex;
+    /*flex-direction: row;*/
+    justify-content: space-between;
+    align-items: center;
+    align-content: flex-start;
+}
+
+.imgNB {
+    width: 60px;
+    height: auto;
+}
+
+.header-right{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.username-header {
+   font-size: 14pt;
+}
+
+.logout-header {
+    width: 20px;
+    height: auto;
+}
+
+.footer {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: right;
+    align-items: flex-end;
+}
+
+.icon-home {
+    width: 30px;
+    height: auto;
+}

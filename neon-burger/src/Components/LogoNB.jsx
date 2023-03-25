@@ -1,16 +1,15 @@
  import nbLogo from '../assets/img/nbLogo.png'
- import './LogoNB.css'
 
- const Logo = ({ neonLogo }) => {
+ function Logo () {
      return (
-        <div className={neonLogo}>
+        <div className='neonLogo'>
             <img src={nbLogo} className='imgNB' alt='Neon Burger' />
          </div>
      );
- }
+ };
 
- <a href="https://vitejs.dev" target="_blank">
-          <img src="/vite.svg" className="logo" alt="Vite logo" />
-        </a>
+//  <a href="https://vitejs.dev" target="_blank">
+//           <img src="/vite.svg" className="logo" alt="Vite logo" />
+//         </a>
 
  export default Logo;

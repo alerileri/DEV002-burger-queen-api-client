@@ -1,8 +1,8 @@
-import Logoutbtn from "../Icons/logoutbtn";
+import Homeicon from "../Icons/homeicon";
 
 function Footer () {
     return (
-        <Logoutbtn />
+        <Homeicon className='icon-home'/>
     )
 }
 

@@ -2,12 +2,14 @@ import Logo from '../../LogoNB'
 import Logoutbtn from '../Icons/logoutbtn'
 import Username from './Username'
 
-function Header () {
+function Header() {
     return (
-        <div>
-            <Logo width='80px' height='auto'/>
-        <Username />
-        <Logoutbtn />
+        <div className='header-div'>
+            <span className='logo-header'><Logo /></span>
+            <span className='header-right'>
+                <span className='username-header'><Username /></span>
+                <span className='logout-header'><Logoutbtn /></span>
+            </span>
         </div>
     )
 }

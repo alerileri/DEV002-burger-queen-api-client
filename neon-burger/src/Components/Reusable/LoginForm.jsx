@@ -5,7 +5,7 @@ function LoginForm () {
                 <input placeholder='user@neonburger.com'></input>
                 <label>Password</label>
                 <input placeholder='password:9'></input>
-                <button type='submit'>Login</button>
+                <button type='submit' text='Ingresar'>Login</button>
             </form>   
     );
 };
