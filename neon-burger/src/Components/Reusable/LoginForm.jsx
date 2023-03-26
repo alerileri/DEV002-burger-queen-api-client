@@ -4,7 +4,7 @@ function LoginForm () {
                 <label className='label-form'>Email</label>
                 <input placeholder='user@neonburger.com'></input>
                 <label>Password</label>
-                <input placeholder='password:9'></input>
+                <input type='password' placeholder='••••••••' id='password'></input>
                 <button type='submit' text='Ingresar'>Login</button>
             </form>   
     );
