@@ -4,6 +4,11 @@
     align-items: center;
 }
 
+.neon-logo{
+    width: 200px;
+    margin-bottom: 30px;
+}
+
 .login-form{
     display: flex;
 }

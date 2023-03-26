@@ -2,8 +2,8 @@
 
  function Logo () {
      return (
-        <div className='neonLogo'>
-            <img src={nbLogo} className='imgNB' alt='Neon Burger' />
+        <div className='neon-logo'>
+            <img src={nbLogo} className='neon-logo' alt='Neon Burger' />
          </div>
      );
  };
