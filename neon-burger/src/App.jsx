@@ -1,6 +1,4 @@
 import { Routes, Route } from 'react-router-dom';
-import { useState } from 'react'
-//import { BrowserRouter, Routes, Route } from "react-router-dom";
 import './App.css'
 import AdminPage from './Pages/AdminPage';
 import ChefPage from './Pages/ChefPage';
@@ -31,7 +29,7 @@ function App() {
 
   return (
     <Routes>
-      <Route path="/" element={<LoginPage />}></Route>
+      <Route exact path="/" element={<LoginPage />}></Route>
         <Route path="feed" element={<Feed />}></Route>
         <Route path="admin" element={<AdminPage />}></Route>
         <Route path="chef" element={<ChefPage />}></Route>
@@ -66,4 +64,4 @@ function App() {
   );
 };
 
-export default App
+export default App;

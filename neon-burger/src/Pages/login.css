@@ -10,7 +10,9 @@
 }
 
 .login-form{
+    width: 150px;
     display: flex;
+    flex-direction: column;
 }
 
 .login-form input {
@@ -21,10 +23,21 @@
     font-size: 12pt;
     font-weight: 300;
     padding: 2px;
+    margin-left: 0px;
     margin-bottom: 8px;
 }
 
-.login-form button {
+.login-form label{
+    align-self: start;
+}
+
+.login-btn {
     margin-top: 10px;
-    justify-self: right;
+    margin-right: 0;
+    background-color: var(--neongreen);
+    align-self: end;
+}
+
+.error-legend{
+    
 }
