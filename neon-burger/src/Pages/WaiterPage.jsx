@@ -38,8 +38,7 @@ function WaiterPage() {
             <section id="menu">
                 <h2>Menu</h2>
                 <p>Para crear un enlace de navegación que permita desplazarse a una sección específica dentro de una página HTML sin usar rutas, puedes utilizar anclas (también conocidos como "hashes").
-
-Para crear una ancla, debes agregar el atributo "id" a la etiqueta HTML de la sección a la que deseas enlazar. Por ejemplo, si deseas enlazar a una sección con el texto "Sección 1" dentro de una página, debes agregar el atributo "id" a la etiqueta correspondiente de la siguiente manera:</p></section>
+                    Para crear una ancla, debes agregar el atributo "id" a la etiqueta HTML de la sección a la que deseas enlazar. Por ejemplo, si deseas enlazar a una sección con el texto "Sección 1" dentro de una página, debes agregar el atributo "id" a la etiqueta correspondiente de la siguiente manera:</p></section>
             <section id="newOrder">
                 <h2>New Order</h2></section>
             <section id="orders">
