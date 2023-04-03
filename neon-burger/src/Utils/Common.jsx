@@ -17,3 +17,5 @@ export const removeUserSession = () => {
     localStorage.removeItem('token');
     localStorage.removeItem('user');
 }
+
+// :)
